@@ -7,8 +7,67 @@
 	font-family: var(--fonte-unisuam);
 	margin: 5px;
 }
+p{
+	display: inline-block;
+	margin-left: 40px;
+}
+h1{
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+	font-size: 30px;
+	position: relative;
+}
+h2{
+	font-size: 25px;
+	border: 1px solid rgba(0, 0, 0, 0.315);
+	padding-left:20px;
+}
+h3{
+	font-family:var(--fonte-unisuam);
+	color: #478fca;
+}
+::placeholder{
+	color: #ff6600;
+}
+input{
+	color: #ff6600;
+}
 body{
 	background-color: white;
+}
+header div{
+	display: flex;
+	background-color: #ff6600;
+	justify-content: center;
+	margin: 0px;
+}
+#fotonoh1{
+	background-image: url(img/coruja2.png);
+	background-size: 55px;
+	width: 57px;
+	height: 38px;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+nav{
+	background-image: linear-gradient(to right,#478fca ,#ff6600);
+	margin: 0px;
+	padding: 5px;
+}
+nav a{
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 20px;
+	color: #ff6600;
+	text-shadow:1.5px 1.5px #f1f1f1;
+}
+nav a:hover{
+	text-decoration: underline;
+	color: white;
+	background-color: #adc6df;
+	padding: 4px;
+	border-radius: 6px;
 }
 main{
 	max-width: 1200px;
@@ -18,92 +77,66 @@ main{
 	background-position: center center;
 	background-attachment: fixed;
 	background-size:300px;
+}
+.label1{
+	margin-left: 58px;
+}
+#infopessoal{
 
 }
-h1{
-	text-align: center;
-	font-weight: bolder;
-	color: white;
-	font-size: 30px;
-	position: relative;
-	
-}
-#fotonoh1{
-	position: absolute;
-	left: 20px;
-	top: 1px;
-	background-image: url(img/coruja2.png);
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 55px;
-	width: 55px;
-	height: 40px;
-	margin-left: 150px;
-}
-header div{
-	background-color: #ff6600;
-}
-h2{
-	background-image: linear-gradient(to right , #ff6600,#2e6589,#2e6589);
-	font-size: 25px;
-	color: white;
+#infopessoal h2{
+	background-image: linear-gradient(to right,#ff6600 ,#2e6589,#2e6589);
 	text-shadow: 2px 2px #478fca;
-	border: 1px solid rgba(0, 0, 0, 0.315);
-	padding-left:20px;
+	color: white;
 }
-h3{
-	font-family:var(--fonte-unisuam);
-	color: #478fca;
-}
-input{
-	margin-left: 20px;
-}
-p{
-	display: inline-block;
-	margin-left: 40px;
-}
-#areasfacul{
-	display: flex;
-}
-.check{
-	display: inline-block;
-}
-#esquerda{
-	display: block;
-	margin-right:20px;
-	margin-bottom: 20px;
-
-}	
-#esquerda input{
-	margin-left: 100px;
-}
-.etiqueta1{
+#infopessoal label{
 	background-color: #2e6589;
 	color: white;
 	padding: 4px;
 	border-radius: 3px;
 	font-size: .8em;
-	margin-left: 20px;
 }
-#label1{
-	margin-left: 70px;
+#contato{
+
 }
-.etiqueta2{
-	background-color: #404040;
+#contato h2{
+	background-image: linear-gradient(to right , white,#ff6600,#2e6589);
+	text-shadow: 2px 2px #478fca;
 	color: white;
+}
+#contato label{
+	background-color: #404040;
+	color: #ff6600;
 	padding: 4px;
 	border-radius: 3px;
 	font-size: .8em;
-	margin-left: 20px;
 }
-.etiqueta2{
+#interesseacad{
 
+}
+#interesseacad h2{
+	background-image: linear-gradient(to right,#ff6600 ,#892e45,white);
+	text-shadow: 2px 2px #478fca;
+	color: white;
+}
+#interessesacad h3{
+	margin-bottom: 10px;
+}
+#areasfacul{
+	display: flex;
+}
+#esquerda{
+	display: block;
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+#esquerda input{
+	margin-left: 100px;
 }
 /* Menu suspenso*/
 .dropdown {
 	position: relative;
 	display: inline-block;
-
 }
 .dropdown-content{
 	display: none;
@@ -129,16 +162,36 @@ p{
 }
 .dropbtn{
 	background-color: #4CAF50;
-  color: white;
-  padding: 8px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-#interessesacad h3{
-	margin-bottom: 10px;
-}
+	color: white;
+	padding: 8px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	}
+/*fim menu suspenso*/
+#expprofi{
 
+}
+#expprofi h2{
+	background-image: linear-gradient(to right , #ff6600,#adc6df,white);
+	text-shadow: 2px 2px #478fca;
+	color: white;
+}
+#expprofi label{
+	background-color:#ff6600 ;
+	color: #404040;
+	padding: 4px;
+	border-radius: 3px;
+	font-size: .8em;
+}
+#obs{
+	
+}
+#obs h2{
+	background-image: linear-gradient(to right , #2e6589,#2e6589,#ff6600);
+	text-shadow: 2px 2px #478fca;
+	color: white;
+}
 #obs input{
 	margin-left: 20px;
 	background-color: #4CAF50;
