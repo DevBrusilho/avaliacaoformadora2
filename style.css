@@ -49,6 +49,7 @@ header div{
 	height: 38px;
 	margin-right: 25px;
 	margin-top: 10px;
+	background-repeat: no-repeat;
 }
 nav{
 	background-image: linear-gradient(to right,#478fca ,#ff6600);
